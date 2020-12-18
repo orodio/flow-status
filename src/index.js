@@ -4,7 +4,7 @@ import {getHistory} from "./ping"
 
 const app = express()
 
-app.get("/status", async (req, res) => {
+app.get("/history", async (req, res) => {
   const history = await getHistory()
   res.send(history)
 })

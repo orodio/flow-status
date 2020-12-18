@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon ./index.js"
   },
   "author": "",
   "license": "ISC",
@@ -12,6 +12,7 @@
     "@onflow/fcl": "^0.0.66",
     "@onflow/types": "^0.0.4",
     "@onflow/util-actor": "^0.0.2",
+    "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "esm": "^3.2.25",
     "express": "^4.17.1",
@@ -19,8 +20,5 @@
   },
   "engines": {
     "node": "15.x"
-  },
-  "scripts": {
-    "start": "nodemon ./index.js"
   }
 }
